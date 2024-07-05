@@ -26,7 +26,7 @@ exit
 
 ## Tasks
 
-In this project you will use good Test Driven Development (TDD) and Behavior Driven Development (BDD) techniques to write TDD test cases, BDD scenarios, and code, updating the following files:
+In this project I applied Test Driven Development (TDD) and Behavior Driven Development (BDD) techniques to write TDD test cases, BDD scenarios, and code, in the following files:
 
 ```bash
 tests/test_models.py
@@ -45,5 +45,6 @@ Licensed under the Apache License. See [LICENSE](/LICENSE)
 ## Author
 
 John Rofrano, Senior Technical Staff Member, DevOps Champion, @ IBM Research
+Mirko Pizii @ Full Stack Developer and DevOps/Cloud Engineer
 
 ## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
