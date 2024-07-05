@@ -131,10 +131,7 @@ def step_impl(context, element_name):
 @when('I press the "{button}" button')
 def step_impl(context, button):
     button_id = button.lower() + '-btn'
-    button_element = WebDriverWait(context.driver, context.wait_seconds).until(
-        expected_conditions.element_to_be_clickable((By.ID, button_id))
-    )
-    button_element.click()
+    context.driver.find_element_by_id(button_id).click()
 
 ##################################################################
 # This code works because of the following naming convention:
